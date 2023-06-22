@@ -1,10 +1,10 @@
 const { parsed } = require("dotenv").config();
 module.exports = {
   packagerConfig: {
-    name: "BardGPT",
-    executableName: "BardGPT",
+    name: "PoeGPT",
+    executableName: "PoeGPT",
     icon: "images/icon",
-    appBundleId: "com.shadowfax.bardgpt",
+    appBundleId: "com.felarof99.PoeGPT",
     extendInfo: {
       LSUIElement: "true",
     },
@@ -14,7 +14,7 @@ module.exports = {
       identity: "Developer ID Application: Nikhil Venkat Sonti (8YMKWU47S5)",
     },
     osxNotarize: {
-      appBundleId: "com.shadowfax.bardgpt",
+      appBundleId: "com.felarof99.PoeGPT",
 
       tool: "notarytool",
       appleId: parsed.APPLE_ID,
@@ -27,8 +27,8 @@ module.exports = {
       name: "@electron-forge/publisher-github",
       config: {
         repository: {
-          owner: "shadowfax92",
-          name: "BardGPT-Mac",
+          owner: "felarof99",
+          name: "PoeGPT-Mac",
         },
         prerelease: true,
       },

@@ -1,8 +1,8 @@
 {
-  "name": "bardgpt-mac",
-  "productName": "bardgpt-mac",
+  "name": "PoeGPT-mac",
+  "productName": "PoeGPT-mac",
   "version": "0.0.2",
-  "description": "Menubar app for BardGPT",
+  "description": "Menubar app for PoeGPT",
   "main": "index.js",
   "scripts": {
     "start": "electron-forge start",
@@ -12,7 +12,7 @@
     "lint": "echo \"No linting configured\""
   },
   "keywords": [
-    "bardgpt",
+    "PoeGPT",
     "mac"
   ],
   "author": {
@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shadowfax92/BardGPT"
+    "url": "https://github.com/felarof99/PoeGPT"
   },
   "devDependencies": {
     "@electron-forge/cli": "^6.0.4",

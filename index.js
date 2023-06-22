@@ -83,7 +83,7 @@ app.on("ready", () => {
       {
         label: "View on GitHub",
         click: () => {
-          shell.openExternal("https://github.com/shadowfax92/BardGPT");
+          shell.openExternal("https://github.com/felarof99/PoeGPT");
         },
       },
       {
