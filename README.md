@@ -6,13 +6,13 @@ You can use Cmd+Shift+G (Mac) or Ctrl+Shift+G (Win) to quickly open it from anyw
 
 Download:
 
-- Mac:  Apple Silicon/Arm64 Installer - [dmg](https://github.com/felarof99/PoeGPT/releases/download/release-0.0.2/PoeGPT-0.0.2-arm64.dmg)
-- Mac: Intel Installer - [dmg](https://github.com/felarof99/PoeGPT/releases/download/release-0.0.2/PoeGPT-0.0.2-x64.dmg)
+- Mac:  Apple Silicon/Arm64 Installer - [dmg]()
+- Mac: Intel Installer - [dmg]()
 
 No Windows binaries currently offered. Clone the repo, npm install electron-forge and run.
 
 <p align="center">
-  <img src="./images/screenshot.png" width="500">
+<!--   <img src="./images/screenshot.png" width="500"> -->
 </p>
 
 ## Credit
