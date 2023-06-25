@@ -10,3 +10,4 @@ releases
 .DS_store
 yarn.lock
 package-lock.json
+.env
