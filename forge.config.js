@@ -4,7 +4,7 @@ module.exports = {
     name: "PoeGPT",
     executableName: "PoeGPT",
     icon: "images/icon",
-    appBundleId: "com.felarof.poegpt",
+    appBundleId: "com.shadowfax.poegpt",
     extendInfo: {
       LSUIElement: "true",
     },
@@ -14,8 +14,7 @@ module.exports = {
       identity: "Developer ID Application: Nikhil Venkat Sonti (8YMKWU47S5)",
     },
     osxNotarize: {
-      appBundleId: "com.felarof.poegpt",
-
+      appBundleId: "com.shadowfax.poegpt",
       tool: "notarytool",
       appleId: parsed.APPLE_ID,
       appleIdPassword: parsed.APPLE_PASSWORD,

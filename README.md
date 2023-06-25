@@ -21,4 +21,4 @@ No Windows binaries currently offered. Clone the repo, npm install electron-forg
 
 ## Author
 
-You can find me on Twitter [@ShadowfaxApp](https://twitter.com/ShadowfaxApp).
+You can find me on Twitter [@ThatNTN](https://twitter.com/ThatNTN).
