@@ -22,11 +22,11 @@ app.on("ready", () => {
 
   const mb = menubar({
     browserWindow: {
-      icon: image,
-      transparent: path.join(__dirname, `images/iconApp.png`),
+      iconi: image,
+      transparent: image,
       webPreferences: {
         webviewTag: true,
-        // nativeWindowOpen: true,
+        nativeWindowOpen: true,
       },
       width: 450,
       height: 550,
@@ -34,7 +34,7 @@ app.on("ready", () => {
     tray,
     showOnAllWorkspaces: true,
     preloadWindow: true,
-    showDockIcon: false,
+    showDockIcon: true,
     icon: image,
   });
 
@@ -45,7 +45,7 @@ app.on("ready", () => {
     if (process.platform !== "darwin") {
       window.setSkipTaskbar(true);
     } else {
-      app.dock.hide();
+      // app.dock.hide();
     }
 
     const contextMenuTemplate = [
@@ -66,7 +66,7 @@ app.on("ready", () => {
       {
         label: "Open in browser",
         click: () => {
-          shell.openExternal("https://bard.google.com/");
+          shell.openExternal("https://poe.google.com/");
         },
       },
       {
@@ -83,13 +83,13 @@ app.on("ready", () => {
       {
         label: "View on GitHub",
         click: () => {
-          shell.openExternal("https://github.com/felarof99/PoeGPT");
+          shell.openExternal("https://github.com/felarof99/BardGPT");
         },
       },
       {
         label: "Author on Twitter",
         click: () => {
-          shell.openExternal("https://twitter.com/ShadowfaxApp");
+          shell.openExternal("https://twitter.com/ThatNTN");
         },
       },
     ];

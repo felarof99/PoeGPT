@@ -1,0 +1,12 @@
+node_modules
+build
+dist
+lib
+out
+tags
+dmg
+mac-app
+releases
+.DS_store
+yarn.lock
+package-lock.json
