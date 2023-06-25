@@ -66,7 +66,7 @@ app.on("ready", () => {
       {
         label: "Open in browser",
         click: () => {
-          shell.openExternal("https://poe.google.com/");
+          shell.openExternal("https://poe.com/");
         },
       },
       {
@@ -83,7 +83,7 @@ app.on("ready", () => {
       {
         label: "View on GitHub",
         click: () => {
-          shell.openExternal("https://github.com/felarof99/BardGPT");
+          shell.openExternal("https://github.com/felarof99/PoeGPT");
         },
       },
       {
